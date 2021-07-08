@@ -62,7 +62,7 @@ user_pref("distribution.iniFile.exists.appversion", "85.0.1");
 user_pref("distribution.iniFile.exists.value", true);
 user_pref("doh-rollout.balrog-migration-done", true);
 user_pref("doh-rollout.doneFirstRun", true);
-user_pref("dom.push.userAgentID", "695d5a1a990c4a42ad00797a498bc0f7");
+user_pref("dom.push.userAgentID", "007e7284af1a4ffc9761ce5343de7be2");
 user_pref("extensions.activeThemeID", "default-theme@mozilla.org");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.databaseSchema", 33);

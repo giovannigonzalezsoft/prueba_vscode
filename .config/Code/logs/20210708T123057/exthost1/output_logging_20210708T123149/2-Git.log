@@ -207,3 +207,21 @@ Open repository: /home/gio
 > git config --get commit.template
 > git show --textconv :Documentos/prueba/prueba_vscode/pruebagit.html
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/ubuntu refs/remotes/ubuntu
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git ls-files --stage -- /home/gio/Documentos/prueba/prueba_vscode/pruebagit.html
+> git show --textconv :Documentos/prueba/prueba_vscode/pruebagit.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/ubuntu refs/remotes/ubuntu
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git add -A -- .
